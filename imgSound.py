@@ -61,4 +61,4 @@ def imgSound(fnme, wfn, secs=2, sampleRate=44100):
 
 
 if __name__ == '__main__':
-    imgSound('/Volumes/backup 500gb/Pictures/photocdgaizka/jpg/img0005.jpg', 'wave01.wav')
+    imgSound('img0005.jpg', 'wave01.wav') # test w/jpg file
