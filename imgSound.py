@@ -56,9 +56,8 @@ def imgSound(fnme, wfn, secs=2, sampleRate=44100):
     wave = genWave(amps, freqs, sampleRate, secs)
     writeWave(wfn, wave, sampleRate)
 
-    # play wav file
-    system('afplay ' + wfn)
-
 
 if __name__ == '__main__':
     imgSound('img0005.jpg', 'wave01.wav') # test w/jpg file
+     # play wav file, use your os based command, afplay for osx
+    system('afplay ' + 'wave01.wav')
